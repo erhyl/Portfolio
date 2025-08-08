@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Erhyl.dev - Front-End React Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <h1>Erhyl.dev</h1>
+            </div>
+            <nav class="nav" id="site-nav">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <button class="menu-toggle" id="menu-toggle" aria-label="Toggle menu">
+                <span></span><span></span><span></span>
+            </button>
+            <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
+                <i class="fa-solid fa-moon"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        Front-End React Developer
+                        <span class="wave">👋</span>
+                    </h1>
+                    <p class="hero-description">
+                        Hi, I'm Erhyl Dhee Toraja. A passionate Front-end React Developer based in Philippines.
+                        <span class="location">📍</span>
+                    </p>
+                    <div class="social-links">
+                        <a href="#" class="social-link" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="#" class="social-link" aria-label="GitHub" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="profile-frame">
+                        <img src="images/profile.webp" alt="Erhyl Dhee Toraja" class="profile-img">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tech Stack Section -->
+    <section class="tech-stack" id="stack">
+        <div class="container">
+            <div class="tech-content">
+                <div class="tech-text">
+                    <h2>Tech Stack</h2>
+                    <div class="separator"></div>
+                </div>
+                <div class="tech-icons">
+                    <div class="tech-icon">
+                        <i class="fab fa-html5" style="color: #e34f26;"></i>
+                        <span>HTML5</span>
+                    </div>
+                    <div class="tech-icon">
+                        <i class="fab fa-css3-alt" style="color: #1572b6;"></i>
+                        <span>CSS3</span>
+                    </div>
+                    <div class="tech-icon">
+                        <i class="fab fa-js-square" style="color: #f7df1e;"></i>
+                        <span>JavaScript</span>
+                    </div>
+                    <div class="tech-icon">
+                        <i class="fab fa-react" style="color: #61dafb;"></i>
+                        <span>React</span>
+                    </div>
+                    <div class="tech-icon">
+                        <i class="fab fa-node-js" style="color: #339933;"></i>
+                        <span>Node.js</span>
+                    </div>
+                    <div class="tech-icon">
+                        <i class="fa-solid fa-database" style="color: #060053;"></i>
+                        <span>MySQL</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about section" id="about">
+        <div class="container">
+            <div class="section-head">
+                <h2>About Me</h2>
+                <div class="separator"></div>
+            </div>
+            <div class="about-content">
+                <p>
+                    I'm a Front-End developer focused on building performant, accessible, and delightful user interfaces.
+                    I enjoy translating designs into clean, maintainable code and continuously leveling up my craft.
+                </p>
+                <ul class="about-list">
+                    <li><i class="fa-solid fa-check"></i> Responsive, mobile-first design</li>
+                    <li><i class="fa-solid fa-check"></i> Component-driven architecture (React)</li>
+                    <li><i class="fa-solid fa-check"></i> Modern tooling: Vite, Webpack, ESLint, Prettier</li>
+                    <li><i class="fa-solid fa-check"></i> API integration, state management</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects section" id="projects">
+        <div class="container">
+            <div class="section-head">
+                <h2>Projects</h2>
+                <div class="separator"></div>
+            </div>
+            <div class="projects-grid">
+                <article class="project-card reveal">
+                    <div class="project-icon"><i class="fa-solid fa-list-check"></i></div>
+                    <h3>TaskFlow</h3>
+                    <p>Kanban task manager with drag-and-drop, persistence, and keyboard shortcuts.</p>
+                    <div class="tags">
+                        <span class="tag">React</span>
+                        <span class="tag">TypeScript</span>
+                        <span class="tag">LocalStorage</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" target="_blank" rel="noopener" class="btn btn-secondary"><i class="fa-solid fa-eye"></i> Demo</a>
+                        <a href="#" target="_blank" rel="noopener" class="btn btn-primary"><i class="fa-brands fa-github"></i> Code</a>
+                    </div>
+                </article>
+                <article class="project-card reveal">
+                    <div class="project-icon"><i class="fa-solid fa-chart-line"></i></div>
+                    <h3>Insight Dashboard</h3>
+                    <p>Responsive analytics dashboard with charts, dark mode, and real-time widgets.</p>
+                    <div class="tags">
+                        <span class="tag">React</span>
+                        <span class="tag">CSS</span>
+                        <span class="tag">Charts</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" target="_blank" rel="noopener" class="btn btn-secondary"><i class="fa-solid fa-eye"></i> Demo</a>
+                        <a href="#" target="_blank" rel="noopener" class="btn btn-primary"><i class="fa-brands fa-github"></i> Code</a>
+                    </div>
+                </article>
+                <article class="project-card reveal">
+                    <div class="project-icon"><i class="fa-solid fa-bolt"></i></div>
+                    <h3>QuickNotes</h3>
+                    <p>Minimal note app with offline support and instant fuzzy search.</p>
+                    <div class="tags">
+                        <span class="tag">PWA</span>
+                        <span class="tag">JavaScript</span>
+                        <span class="tag">IndexedDB</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" target="_blank" rel="noopener" class="btn btn-secondary"><i class="fa-solid fa-eye"></i> Demo</a>
+                        <a href="#" target="_blank" rel="noopener" class="btn btn-primary"><i class="fa-brands fa-github"></i> Code</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact section" id="contact">
+        <div class="container">
+            <div class="section-head">
+                <h2>Contact</h2>
+                <div class="separator"></div>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <p>Interested in working together or have a question? Drop a message.</p>
+                    <ul>
+                        <li><i class="fa-solid fa-envelope"></i> <a href="mailto:you@example.com">erhyldheetoraja@gmail.com</a></li>
+                        <li><i class="fa-solid fa-location-dot"></i> Philippines</li>
+                    </ul>
+                </div>
+                <form id="contact-form" class="contact-form">
+                    <div class="form-field">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="Your name" required>
+                    </div>
+                    <div class="form-field">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="erhyldheetoraja@gmail.com" required>
+                    </div>
+                    <div class="form-field">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" placeholder="How can I help?" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send</button>
+                    <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>© <span id="year"></span> Erhyl.dev. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
